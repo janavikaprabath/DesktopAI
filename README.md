@@ -7,46 +7,46 @@ An intelligent, voice-activated AI assistant for Linux desktop environments that
 ![Platform](https://img.shields.io/badge/platform-Linux-orange.svg)
 ![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
 
-## 🌟 Key Features
+## Key Features
 
-### 🎤 Advanced Voice Processing
+### Advanced Voice Processing
 - **Wake Word Detection**: Responds to "Jasper" using Porcupine wake word engine
 - **Speaker Verification**: Uses Resemblyzer for owner voice recognition and security
 - **Voice Activity Detection**: Intelligent speech detection with Silero VAD
 - **High-Quality Speech Recognition**: Groq Whisper API for accurate transcription
 
-### 🧠 AI-Powered Intelligence
+### AI-Powered Intelligence
 - **LangChain Integration**: Advanced conversational AI with tool usage capabilities
 - **Multiple LLM Support**: Compatible with Groq, Anthropic, and other providers
 - **Conversation Memory**: Persistent chat history with SQLite checkpoints
 - **Context Summarization**: Automatic conversation summarization for long interactions
 - **Intelligent Tool Selection**: React agent that chooses appropriate tools automatically
 
-### 🖥️ System Integration
+### System Integration
 - **Shell Command Execution**: Run any Linux command via voice
 - **Browser Control**: Open Chrome with specific URLs or in new windows
 - **Application Launching**: Quick access to web applications
 - **Screenshot Capabilities**: Take and analyze screen captures
 - **System Monitoring**: Real-time status updates and logging
 
-### 🎨 Modern User Interface
+### Modern User Interface
 - **Transparent Overlay**: PyQt5-based floating window with transparency
 - **Real-time Status**: Visual indicators for listening, processing, and responding states
 - **Message History**: Scrollable conversation log with user/assistant distinction
 - **Text Input**: Alternative text-based interaction alongside voice
 - **Draggable Interface**: Repositionable overlay window
 
-### 🔧 Advanced Configuration
+### Advanced Configuration
 - **Modular Architecture**: Clean separation of concerns with organized components
 - **Thread-Safe Operations**: Concurrent processing for responsive performance
 - **Comprehensive Logging**: Detailed logs for debugging and monitoring
 - **Environment-Based Config**: Flexible configuration via environment variables
 - **Personalizable**: Customize the assistant's name and personality via config
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 ![architecture.png](architecture.png)
 
-## 📋 Prerequisites
+## Prerequisites
 
 ### System Requirements
 - **Operating System**: Linux (tested on Arch Linux, Ubuntu, Fedora)
@@ -63,7 +63,7 @@ An intelligent, voice-activated AI assistant for Linux desktop environments that
 - **Google API Key**: For additional services (if needed)
 - **Tavily API Key**: For web search functionality
 
-## 🚀 Installation
+## Installation
 
 ### 1. Clone the Repository
 
@@ -101,7 +101,7 @@ Follow the prompts to record 20 seconds of your voice. This creates a voice prof
 chmod +x run.sh
 ```
 
-## 🎯 Usage
+## Usage
 
 ### Starting the Assistant
 
@@ -229,7 +229,7 @@ DesktopAI/
 └── checkpoints/                    # Conversation memory (created at runtime)
 ```
 
-## ⚙️ Configuration
+## Configuration
 
 All configuration is managed through environment variables (`.env` file) and `src/config.py`.
 
@@ -273,7 +273,7 @@ OVERLAY_Y = 50
 MESSAGE_TIMEOUT = 5  # Auto-hide timeout
 ```
 
-## 🚀 Advanced Usage
+## Advanced Usage
 
 ### Custom Tools
 
@@ -300,7 +300,7 @@ LLM_PROVIDER="your-provider"
 
 Or modify `src/core/llm.py` directly for more control.
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Whether it's bug reports, feature requests, or code contributions, every bit helps.
 
@@ -308,15 +308,15 @@ Please read our [Contributing Guide](CONTRIBUTING.md) before submitting a PR.
 
 See the [open issues](https://github.com/HarshBansal8705/DesktopAI/issues) for a list of known issues and planned features.
 
-## 📜 Code of Conduct
+## Code of Conduct
 
 This project follows the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Porcupine** by Picovoice for wake word detection
 - **Groq** for fast LLM inference and Whisper API
@@ -325,13 +325,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Edge TTS** for text-to-speech synthesis
 - **Resemblyzer** for speaker verification
 
-## 📞 Support
 
-For issues, questions, or contributions:
-
-- **GitHub Issues**: [Report bugs or request features](https://github.com/Harshbansal8705/DesktopAI/issues)
-- **Email**: harsh@harshbansal.in
 
 ---
 
-**Made with ❤️ by Harsh Bansal**
